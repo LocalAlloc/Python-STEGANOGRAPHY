@@ -8,7 +8,7 @@ from tkinter import messagebox
 def Decode():
     Screen.destroy()
     DecScreen = Tk()
-    DecScreen.title("Decode- TechVidvan")
+    DecScreen.title("Decode- Maruf132")
     DecScreen.geometry("500x500+300+300")
     DecScreen.config(bg="pink")
     def OpenFile():
@@ -29,7 +29,7 @@ def Decode():
 def Encode():
     Screen.destroy()
     EncScreen = Tk()
-    EncScreen.title("Encode- TechVidvan")
+    EncScreen.title("Encode- Maruf132")
     EncScreen.geometry("500x500+300+300")
     EncScreen.config(bg="yellow")
     label = Label(text="Confidential Message")
